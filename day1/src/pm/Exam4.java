@@ -27,7 +27,11 @@ public class Exam4 {
 	    short _abvd; // _로 시작할 수 있다.
 	    char $ab_cd; // $로 시작할 수 있다.
 	    // int 3abc; // 숫자로 시작할 수 없다.
+	    long abcd3;
+	    // float int; //예약어 int 는 사용할 수 없다.
+	    // double main; // 예약어 main 은 사용할 수 없다.
+	    String myClassName; //두번째 부터 단어의 첫글자는 대문자
+	    String ABC; //사용은 가능하지만 비추(전부 대문자)
 	    
-	}
-
+}	
 }
