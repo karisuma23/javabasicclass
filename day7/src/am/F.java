@@ -1,0 +1,6 @@
+package am;
+
+
+ class F {
+
+}
