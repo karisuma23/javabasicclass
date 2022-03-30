@@ -21,11 +21,11 @@ this 매서드의 특징
 }
 
 class Y{
-    Y(){
+    Y(){ // 기본 생성자 
       System.out.println("첫번쨰 생성자");
     }
     Y(int a){
-        this();
+        this(); // 매서드내 가장 첫줄에 위치한다. 
         System.out.println("두번쨰 생성자");
     }
 }
